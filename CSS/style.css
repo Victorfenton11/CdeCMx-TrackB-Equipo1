@@ -62,3 +62,7 @@ body {
     width: 100%;
     background-color: transparent;
 }
+
+.map {
+    margin-left: 50%;
+}
