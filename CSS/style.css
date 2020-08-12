@@ -14,7 +14,7 @@ body {
 
 .org {
     font-family: "Century Gothic";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -25,7 +25,7 @@ body {
 {
     float: left;
     margin-top: 8%;
-    margin-left: 6%;
+    margin-left: 8%;
     white-space: nowrap;
 }
 
@@ -33,7 +33,7 @@ body {
 {
     float: right;
     margin-top: 8%;
-    margin-right: 6%;
+    margin-right: 8%;
     white-space: nowrap;
 }
 
@@ -73,6 +73,10 @@ h4 {
     margin-left: 8%;
 }
 
+#desktop-only {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     #nav-left {
         margin-top: 4%;
@@ -86,55 +90,30 @@ h4 {
 @media only screen and (min-width: 1025px) {
     
     .org {
-        font-family: "Century Gothic";
-        font-size: 18px;
+        font-size: 24px;
         font-weight: lighter;
-        color: white;
-        text-decoration: none;
-        padding: 1%;
     }
     
     #nav-left
     {
-        display: inline-block;
         margin-top: 2%;
         margin-left: 4%;
-        white-space: nowrap;
     }
     
     #nav-right
     {
-        display: inline-block;
-        float: right;
         margin-top: 2%;
         margin-right: 4%;
-        white-space: nowrap;
     }
     
     .navitem {
-        font-family: "Century Gothic";
-        font-size: 14px;
-        font-weight: lighter;
-        color: white;
-        text-decoration: none;
+        font-size: 18px;
         padding: 6%;
     }
     
     .content {
         width: 42%;
-        margin-left: 8%;
-        margin-top: 10%;
-        font-family: "Century Gothic";
         font-size: 50px;
-        font-weight: lighter;
-        color: white;
-        padding: 1%;
-    }
-    
-    .blank {
-        height: 35px;
-        width: 100%;
-        background-color: transparent;
     }
     
     .map {
@@ -146,5 +125,9 @@ h4 {
 
     .mobile-only {
         display: none;
+    }
+
+    #desktop-only {
+        display: inline-block;
     }
 }
