@@ -14,7 +14,7 @@ body {
 
 .org {
     font-family: "Century Gothic";
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -33,13 +33,13 @@ body {
 {
     float: right;
     margin-top: 8.2%;
-    margin-right: 9%;
+    margin-right: 6%;
     white-space: nowrap;
 }
 
 .navitem {
     font-family: "Century Gothic";
-    font-size: 11px;
+    font-size: 12px;
     font-weight: lighter;
     color: white;
     text-decoration: none;
@@ -74,7 +74,13 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
+    #nav-left {
+        margin-top: 4%;
+    }
 
+    #nav-right {
+        margin-top: 4.2%;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
