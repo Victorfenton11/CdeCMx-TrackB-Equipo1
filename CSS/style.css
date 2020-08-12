@@ -14,8 +14,8 @@ body {
 }
 
 .org {
-    font-family: "Century Gothic";
-    font-size: 18px;
+    font-family: "Copperplate";
+    font-size: 20px;
     font-weight: 600;
     color: white;
     text-decoration: none;
@@ -79,29 +79,6 @@ h4 {
     display: none;
 }
 
-.pc-org {
-    font-size: 28px;
-    font-family: "Copperplate";
-    color: white;
-    text-decoration: none;
-}
-
-.ttl-separator {
-    font-size: 20px;
-    font-family: "Century Gothic";
-    font-weight: 50;
-    padding: 0 6px;
-    color: Gray;
-    text-decoration: none;
-}
-
-.pc-title {
-    font-size: 20px;
-    font-family: "Century Gothic";
-    color: white;
-    text-decoration: none;
-}
-
 @media only screen and (min-width: 768px) {
     .nav-left {
         margin-top: 4%;
@@ -156,5 +133,28 @@ h4 {
 
     #desktop-only {
         display: inline-block;
+    }
+
+    .pc-org {
+        font-size: 28px;
+        font-family: "Copperplate";
+        color: white;
+        text-decoration: none;
+    }
+    
+    .ttl-separator {
+        font-size: 20px;
+        font-family: "Century Gothic";
+        font-weight: 50;
+        padding: 0 6px;
+        color: Gray;
+        text-decoration: none;
+    }
+    
+    .pc-title {
+        font-size: 20px;
+        font-family: "Century Gothic";
+        color: white;
+        text-decoration: none;
     }
 }
