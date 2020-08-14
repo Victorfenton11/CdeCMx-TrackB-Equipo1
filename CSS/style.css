@@ -13,6 +13,10 @@ body {
     color: white;
 }
 
+.title {
+    margin-right: 5%;
+}
+
 .org {
     font-family: "Copperplate";
     font-size: 20px;
@@ -60,8 +64,8 @@ body {
 }
 
 .contentintro {
-    width: 50%;
-    margin: 0 24% 0 auto;
+    width: 55%;
+    margin: 0 auto;
     text-align: left;
     font-family: "Century Gothic";
     font-size: 24px;
