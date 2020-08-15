@@ -142,9 +142,9 @@ body {
 
 .graph {
     margin: 0 auto;
-    width: 90%;
-    height: 60vh;
-    padding: 2%;
+    width: 100%;
+    height: 40vh;
+    padding: 0;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -255,8 +255,14 @@ h4 {
 
 .ttl-subsection {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 auto;
+}
+
+.img-graph {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 @keyframes virus {
@@ -420,9 +426,29 @@ h4 {
         margin: 0 43%; 
         font-size: 40px; 
         font-weight: bold;
+        text-align: center;
     }
 
     .comp2 {
         margin: 0 30%;
+    }
+
+    .graph {
+        width: 90%;
+        height: 70vh;
+        padding: 3%;
+    }
+
+    .margin-fix1 {
+        margin: 0 25%;
+    }
+
+    .margin-fix2 {
+        margin: 0 30%;
+    }
+
+    .img-graph {
+        width: 42%; 
+        height: auto;
     }
 }
