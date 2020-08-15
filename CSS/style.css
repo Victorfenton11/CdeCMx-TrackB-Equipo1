@@ -87,6 +87,7 @@ body {
     width: 90%;
     height: 60vh;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +162,10 @@ h4 {
     left: -10%;
 }
 
+.media-info {
+    font-family: "Century Gothic";
+}
+
 @keyframes aaa {
     0% {
         left: -110%;
@@ -222,6 +227,7 @@ h4 {
     
     .map {
         padding: 5%;
+        padding-bottom: 0;
         width: 60%;
         height: 80vh;
     }
