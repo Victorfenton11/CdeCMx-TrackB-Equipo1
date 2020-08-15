@@ -54,8 +54,22 @@ body {
 
 .content {
     width: 60%;
-    text-align: left;
+    text-align: center;
     height: 95vh;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halfcontent {
+    width: 60%;
+    text-align: center;
+    height: 30vh;
     font-family: "Century Gothic";
     font-size: 16px;
     font-weight: lighter;
@@ -75,6 +89,36 @@ body {
     font-weight: lighter;
     color: white;
     padding: 1%;
+}
+
+.text-left
+{
+    float: left;
+    margin-top: 8%;
+    margin-left: 8%;
+    white-space: nowrap;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    margin-right: 40%;
+}
+
+.text-right
+{
+    float: right;
+    margin-top: 8%;
+    margin-right: 8%;
+    white-space: nowrap;
+    font-family: "Century Gothic";
+    font-size: 24px;
+    margin-left: 40%;
+}
+
+.text-mobile
+{
+    float: left;
+    margin: 0 auto;
+    font-family: "Century Gothic";
+    font-size: 18px;
 }
 
 .blank {
@@ -111,6 +155,10 @@ h4 {
 }
 
 #desktop-only {
+    display: none;
+}
+
+#desktop-only-flex {
     display: none;
 }
 
@@ -284,6 +332,10 @@ h4 {
 
     #desktop-only {
         display: inline-block;
+    }
+
+    #desktop-only-flex {
+        display: flex;
     }
 
     .pc-org {
