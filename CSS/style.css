@@ -16,6 +16,7 @@ body {
 .title {
     margin-right: 10%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .org {
@@ -50,12 +51,13 @@ body {
     color: white;
     text-decoration: none;
     padding: 4%;
+    padding-bottom: 0;
 }
 
 .content {
     width: 60%;
     text-align: center;
-    height: 95vh;
+    height: 92vh;
     font-family: "Century Gothic";
     font-size: 16px;
     font-weight: lighter;
@@ -142,7 +144,7 @@ body {
     margin: 0 auto;
     width: 90%;
     height: 60vh;
-    padding: 5%;
+    padding: 2%;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -237,6 +239,24 @@ h4 {
 
 .img-animation1 {
     animation: virus 10s infinite;
+}
+
+.content2 {
+    width: 60%;
+    text-align: left;
+    height: 100%;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.ttl-subsection {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 auto;
 }
 
 @keyframes virus {
@@ -336,7 +356,7 @@ h4 {
     
     .content {
         width: 46%;
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .contentintro {
@@ -388,5 +408,21 @@ h4 {
 
     .langbuttons p {
         font-size: 24px;
+    }
+
+    .content2 {
+        width: 35%;
+        font-size: 30px;
+        margin: 0 40% 0 auto;
+    }
+
+    .ttl-subsection {
+        margin: 0 43%; 
+        font-size: 40px; 
+        font-weight: bold;
+    }
+
+    .comp2 {
+        margin: 0 30%;
     }
 }
