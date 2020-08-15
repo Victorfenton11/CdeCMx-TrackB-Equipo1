@@ -95,22 +95,22 @@ body {
 {
     float: left;
     margin-top: 8%;
-    margin-left: 8%;
+    margin-left: auto;
     white-space: nowrap;
     font-family: "Century Gothic";
-    font-size: 24px;
-    margin-right: 40%;
+    font-size: 14px;
+    margin-right: 70%;
+    position: relative;
 }
 
 .text-right
 {
     float: right;
     margin-top: 8%;
-    margin-right: 8%;
     white-space: nowrap;
     font-family: "Century Gothic";
-    font-size: 24px;
-    margin-left: 40%;
+    font-size: 14px;
+    position: relative;
 }
 
 .text-mobile
@@ -235,6 +235,19 @@ h4 {
     -ms-animation: fadeIn ease 5s;
 }
 
+.img-animation1 {
+    animation: virus 10s infinite;
+}
+
+@keyframes virus {
+    0% {margin-bottom: 3%;}
+    20% {margin-right: 3%}
+    40% {margin-left: 3%}
+    60% {margin-right: 3%}
+    80% {margin-top: 3%}
+    100% {margin-bottom: 2%}
+}
+
 @keyframes fadeIn {
 0% {opacity:0;}
 100% {opacity:1;}
@@ -273,6 +286,18 @@ h4 {
     }
 }
 
+@media only screen and (min-width: 1620px) {
+    .text-left
+    {
+        font-size: 20px;
+    }
+
+    .text-right
+    {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .nav-left {
         margin-top: 4%;
@@ -283,7 +308,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1150px) {
     
     .org {
         font-size: 24px;
@@ -310,7 +335,7 @@ h4 {
     }
     
     .content {
-        width: 45%;
+        width: 46%;
         font-size: 36px;
     }
 
