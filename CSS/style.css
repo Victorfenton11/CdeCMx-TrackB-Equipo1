@@ -276,6 +276,11 @@ h4 {
     background-image: linear-gradient(transparent, teal);
 }
 
+.playlist {
+    margin-left: 25%; 
+    margin-top: 70%;
+}
+
 #playlist
 {
     width: 300px;
@@ -475,5 +480,10 @@ h4 {
     .img-graph {
         width: 42%; 
         height: auto;
+    }
+
+    .playlist {
+        margin-left: 45%; 
+        margin-top: 25%;"
     }
 }
