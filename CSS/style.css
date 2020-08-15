@@ -248,7 +248,7 @@ h4 {
     font-family: "Century Gothic";
     font-size: 16px;
     font-weight: lighter;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     display: flex;
 }
@@ -257,6 +257,7 @@ h4 {
     font-weight: bold;
     font-size: 16px;
     margin: 0 auto;
+    color: white;
 }
 
 .img-graph {
@@ -417,16 +418,17 @@ h4 {
     }
 
     .content2 {
-        width: 35%;
-        font-size: 30px;
+        width: 40%;
+        font-size: 24px;
         margin: 0 40% 0 auto;
     }
 
     .ttl-subsection {
         margin: 0 43%; 
-        font-size: 40px; 
-        font-weight: bold;
+        font-size: 32px;
+        font-weight: normal;
         text-align: center;
+        font-family: georgia, "times new roman", times, serif;
     }
 
     .comp2 {
