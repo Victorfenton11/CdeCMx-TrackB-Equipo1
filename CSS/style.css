@@ -501,6 +501,19 @@ h4 {
         margin-left: 42%; 
         margin-top: 18%;
     }
+
+    .team {
+        width: 10%;
+        height: auto;
+        margin: 5% 15%;
+        border: 1px solid Gray;
+        text-align: center;
+    }
+
+    .contact-ttl {
+        font-size: 40px;
+        margin: 0 0 0 43%;
+    }
     
     .contactspace
     {
@@ -509,13 +522,5 @@ h4 {
         margin-left: auto;
         border-radius: 5px;
         padding: 20px;
-    }
-
-    .team {
-        width: 12%;
-        top: 0;
-        float: left;
-        margin: 10% 5% 0 5%;
-        border: 1px solid gray;
     }
 }
