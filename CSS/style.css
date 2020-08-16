@@ -303,6 +303,11 @@ h4 {
     border-radius: 5px;
 }
 
+.team {
+    width: 90%;
+    margin: 0 5%;
+}
+
 @keyframes virus {
     0% {margin-bottom: 3%;}
     20% {margin-right: 3%}
@@ -365,6 +370,11 @@ h4 {
     .text-right
     {
         font-size: 20px;
+    }
+
+    .team {
+        width: 80%;
+        margin: 3% 10%;
     }
 }
 
@@ -503,11 +513,8 @@ h4 {
     }
 
     .team {
-        width: 10%;
-        height: auto;
-        margin: 5% 10%;
-        border: 1px solid Gray;
-        text-align: center;
+        width: 80%;
+        margin: 3% 10%;
     }
 
     .contact-ttl {
@@ -522,5 +529,10 @@ h4 {
         margin-left: auto;
         border-radius: 5px;
         padding: 20px;
+    }
+
+    .bio {
+        color: white;
+        font-family: "Century Gothic";
     }
 }
