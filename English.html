@@ -26,26 +26,380 @@
         </div>
 
         <div class="presentation fade-in">
-            <div class="blank" id="mobile-only"></div>
-            <div class="blank" id="mobile-only"></div>
-            
-            <div class="content">
-                <p>To date, Mexico has been greatly affected by the presence of the SARS-CoV-2 Virus. While this pandemic has only exposed preexistent issues in the country's functioning, we must implement measures to overcome it, and emphasizing the population's mental health is among those measures. How has the current pandemic impacted mental health among mexican victims of COVID-19?
-                Stay for an in-depth analysis of the country's situation regarding coronavirus.</p>
+                <div class="blank" id="mobile-only"></div>
+                <div class="blank" id="mobile-only"></div>
+                
+                <div class="content">
+                    <p>To date, Mexico has been greatly affected by the presence of the SARS-CoV-2 Virus. While this
+                            pandemic has only exposed preexistent issues in the country's functioning, we must implement
+                            measures to overcome it, and emphasizing the population's mental health is among those
+                            measures. How has the current pandemic impacted mental health among mexican victims of
+                            COVID-19?
+                    </p>
+                </div>
+    
+                <div class="blank"></div>
+    
+                <p class="media-info" style="font-size: 18px">Analysis of the country's current situation regarding COVID-19.-</p>
+    
+                <div class="map">
+                    <iframe src="mapa.html" height="100%" width="100%" frameBorder="0" title="Mapa 1"></iframe>
+                </div>
+    
+                <p class="media-info">Map 1: Mexican Regions classified by daily confirmed cases.</p>
+                <div class="blank" id="desktop-only"></div>
+                <div class="blank"></div>
+    
+                <div class="graph">
+                    <iframe src="graph_clusters.html" height="100%" width="90%" frameBorder="0" title="Grafica 1"></iframe>
+                </div>
+                
+                <div class="content" id="desktop-only-flex">
+                        <img src="coronavirus.jpg" class="center-img img-animation1" style="width: 35%; position: absolute; padding-right: 5%;">
+    
+                        <div class="text-left">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">Total number of cases so far: 460, 111<br></p>
+                            <p style="color: Gray">coronavirus.gob.mx</p>
+                        </div>
+    
+                        <div class="text-right">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">Number of recovered cases: 288,076 from 21 States, <br>
+                                    excluding: Aguascalientes, Baja California, Baja <br>
+                                    California Sur, Campeche, Coahuila de Zaragoza, Colima, <br>
+                                    Chiapas, Chihuahua, Federal District and Zacatecas<br></p>
+                            <p style="color: Gray">SINAVE (2020)</p>
+                        </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">Total number of cases so far: 460, 111</p>
+                        <p style="color: Gray;">coronavirus.gob.mx</p>
+                    </div>
+                </div>
+                    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">Number of recovered cases: 288,076 from 21 States, <br>
+                            excluding: Aguascalientes, Baja California, Baja <br>
+                            California Sur, Campeche, Coahuila de Zaragoza, Colima, <br>
+                            Chiapas, Chihuahua, Federal District and Zacatecas<br></p>
+                        <p style="color: Gray">SINAVE (2020)</p>
+                    </div>
+                </div>
+    
+                <div class="graph">
+                    <iframe src="grafica.html" height="100%" width="100%" frameBorder="0" title="Grafica 1"></iframe>
+                </div>
+    
+                <img src="line.jpg" style="width: 100%; height: 5px;">
+    
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <strong class="content2 ttl-subsection margin-fix1">Why divide the republic like this?</strong>
+                <div class="blank" id="desktop-only"></div>
+                <div class="blank"></div>
+    
+                <div class="content2">
+                        <p>In order to unify the regions of the country by infections and recovered cases, we used two
+                        techniques: principal component analysis (PCA) and the use of Machine Learning to see which
+                        group or cluster each state belonged to. For this, we used the elbow curve method, which consists of
+                        the sum of squared errors in each group for all the data we need, measuring the distance by using
+                        an Euclidean metric, and looking for the point in which a curve or an "elbow" is drawn. That
+                        point determines how many clusters we should use.</p>
+                </div>
+    
+                <div class="graph">
+                <iframe src="codo.html" height="100%" width="100%" frameBorder="0" title="Grafica Metodo del Codo"></iframe>
+                </div>
+    
+                <p class="media-info">Principal Component Analysis.</p>
+                <img src="grafica2.png" class="graph" style="width: 65%; height: auto; margin: 0 auto; padding: 0;" alt="Grafica del Clusters">
+                
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <img src="line.jpg" style="width: 100%; height: 5px;">
+    
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <strong class="content2 ttl-subsection">Epidemic Curve</strong>
+                <div class="blank" id="desktop-only"></div>
+    
+                <div class="content2 comp2">
+                    <p>The criteria for recovering from Coronavirus from the three states of the State of Mexico, CDMX
+                            and Guanajuato will be taken, making a comparison with the time in which the discharge was
+                            made.
+                    <br><br>
+                    What is an epidemic curve?<br><br>
+                    According to Dr. Michele Torok, an epidemic curve is a graphic representation of the number of
+                    cases according to the date of the onset of the disease. Torok (s.f.).
+                    <br><br>
+                    What is the difference between an outbreak and an epidemic?<br><br>
+                    Regarding the cases of a disease, they are very similar, since an outbreak is a disease that appears
+                    where it is not common for it to appear, while an epidemic is a disease that attacks a certain
+                    number of people in a certain time.
+                    <br><br>
+                    Epidemic curves for daily cases at the national level, State of Mexico, CDMX and Guanajuato:</p>
+                </div>
+    
+                <div class="graph">
+                    <iframe src="cdmx.html" height="100%" width="100%" frameBorder="0" title="Grafica Metodo del Codo"></iframe>
+                </div>
+                <div class="graph">
+                    <iframe src="edomex.html" height="100%" width="100%" frameBorder="0" title="Grafica Metodo del Codo"></iframe>
+                </div>
+                <div class="graph">
+                    <iframe src="gto.html" height="100%" width="100%" frameBorder="0" title="Grafica Metodo del Codo"></iframe>
+                </div>
+                
+    
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <img src="line.jpg" style="width: 100%; height: 5px;">
+    
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <strong class="content2 ttl-subsection margin-fix2">Repercussions on Mental Health: Anxiety</strong>
+                <div class="blank" id="desktop-only"></div>
+    
+                <div class="content2 comp2">
+                    <p>Mexico as a developing country has been one of the most affected by the pandemic, the
+                            population has been exposed to unprecedented stress, economic difficulties increased to those
+                            already suffered before the pandemic, fear of an unknown virus and uncertainty of the health
+                            system, all this has contributed to the gradual increase in the individual risk portfolio to present
+                            psychological alterations; Although mental health is not among the first bases for society, it is of
+                            the utmost importance to carry out preventive measures for them.
+                    <br><br>
+                    A clear example is anxiety, which is a conduct disorder characterized by increased muscle tension
+                    and autonomous hyperactivity, negatively affecting the psychosocial functioning of the individual
+                    almost daily; the exact cause is uncertain but is associated with the stress of emotional loss and
+                    dangerous situations.
+                    <br><br>
+                    It occurs rarely before adolescence; the prevalence in the adolescent population is 0.9%, among
+                    adults 2.9%, that is, 3 times higher than in adolescents (in the United States), now it is twice more
+                    common in women than in men, white populations have more likely to be affected than those of
+                    African, Asian or Hispanic ethnicity, although it must be taken into account that all these factors
+                    were increased by the quarantine. (Gennaro, 2020) </p>
+                </div>
+    
+                <div class="blank" id="desktop-only"></div>
+                <strong class="content2 ttl-subsection margin-fix2">Attack Ratio</strong>
+                <div class="blank" id="desktop-only"></div>
+    
+                <div class="content2 comp2">
+                    <p>Specific attack ratio: number of cases with mental illness divided by the total number of the
+                        population suffering from covid and this result multiplied by 100.
+                        <br><br>
+                        <strong>Example: Estado de México.-</strong> <br><br>
+                        Attack ratio = [exposed population (3,850)] / total recovered cases (9,167)] x 100 = 42%. Thus, the
+                        anxiety attack ratio for people recovered with coronavirus in the State of Mexico is 42%. (Gennaro,
+                        2020) </p>
+                </div>
+    
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <img src="line.jpg" style="width: 100%; height: 5px;">
+    
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank" id="desktop-only"></div>
+    
+                <strong class="content2 ttl-subsection margin-fix2">Impact of the Health Crisis</strong>
+                <div class="blank" id="desktop-only"></div>
+    
+                <div class="content2 comp2">
+                    <p>Epidemics and diseases bring weaknesses in people&#39;s economic, health and lifestyle systems to
+                            light, revealing human frailty. <br><br>
+                            Spread throughout the world, the Coronavirus pandemic further increases the number of infected
+                            cases and deceased people, also affecting our country. Its consequences have extrapolated the
+                            health field, causing transformations in interpersonal relationships, daily life. politically and
+                            psychologically.
+                    <br><br>
+                    “A major consequence of the Covid-19 pandemic is that it is likely to have increased social isolation
+                    and loneliness (as reflected in our surveys), which are strongly associated with anxiety, depression,
+                    self-harm, and suicide attempts throughout life's course. We can assume that for the general
+                    population it has been a rather complex experience due to the fact that confinement tends to be
+                    difficult since there are negative elements such as fear and anxiety.
+                    <br><br>
+                    Speaking of other types of repercussions, sectors within the Mexican economy begin to see
+                    deterioration from the first months of the pandemic, the data shows that the fall in employment,
+                    in tax collection and in company profits will lead to the beginning of a rapid and deep economic
+                    crisis; Adding to this the forecast of job losses for this year in Mexico, according to business
+                    associations and the international recruitment organization Manpower Group, 1.2 to 2 million jobs
+                    have been lost. Also, it is worth mentioning that it was announced that the impact of the
+                    coronavirus pandemic will cause the worst crisis that Latin America has suffered since 1914 and
+                    1930, the Economic Commission for Latin America and the Caribbean (ECLAC) estimates that the
+                    Mexican economy will be between the most affected, with a drop of 6.5% in GDP at the end of this
+                    year.
+                    <br><br>
+                    Also, the coronavirus is instantly changing the way education is delivered, since the school and the
+                    home have become the same place after the necessary regulations. According to UNESCO, more
+                    than 861.7 million children and young people in 119 countries have been affected by having to
+                    face the global pandemic that has hit us this year. Millions of families in the US have had to join
+                    the 1.7 million children who are enrolled in homeschooling. As in Mexico, where the Ministry of
+                    Public Education (SEP) has extended the vacation period from March 23 to April 17, 2020.
+                    <br><br>
+                    At this stage of the pandemic, no one doubts the direct and indirect psychological and social
+                    effects of the disease in the majority of the population and that is why preventive measures
+                    should be taken against it, in this article we have seen an approximation of how it can affect a
+                    single mental appearance, but there are endless mental illnesses that affect the population on a
+                    daily basis. It is necessary to keep in mind the attitudes and activities that we can take to prevent
+                    them, among them is listening to music and new genres, discovering virtual galleries and museums
+                    in Google Culture and Arts until learning completely new skills such as a new language or playing
+                    an instrument Following established routines and trying to do new things or things that can keep
+                    our mind occupied are also helpful. It should be noted that the hardest step when dealing with
+                    mental health problems is asking for help and admitting that you have a problem. No matter how
+                    much we try to give our mind the best care, there is a probability of falling into anxiety due to the
+                    various repercussions that the pandemic can have; That's why we highly recommend the following
+                    options for asking for help in the event of a mental health emergency: </p>
+                </div>
+    
+                <div class="content" id="desktop-only-flex" style="height: 50vh;">
+                        <img src="anxiety1.jpg" class="center-img img-animation2" style="width: 25%; position: absolute; padding-right: 5%;">
+    
+                        <div class="text-left">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                    International Bipolar Foundation<br> (Mexican Suicide Hotline)
+                                    <br></p>
+                            <p style="color: Gray">Phone Number: 525-510-2550</p>
+                            <div class="blank"></div>
+                            <div class="blank"></div>
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                    Alumbra: Online Chat with <br> expert Psychologists
+                                    <br></p>
+                            <p style="color: Gray">Website: <a teget="_blank" href="https://alumbramx.org/ayuda" style="color: white; text-decoration: none;">alumbramx.org/ayuda/</a></p>
+                        </div>
+    
+                        <div class="text-right">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">Emotional Crisis Intervention Services<br> (In the State of Jalisco and all of the mexican republic)<br></p>
+                            <p style="color: Gray">Phone Number: 01800 227-4747</p>
+                            <div class="blank"></div>
+                            <div class="blank"></div>
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">SAPTEL (Mental Health Medical Service)<br></p>
+                            <p style="color: Gray">Phone Number: 01800 472-7835</p>
+                        </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                International Bipolar Foundation (Mexican Suicide Hotline)</p>
+                        <p style="color: Gray">Phone Number: 525-510-2550</p>
+                    </div>
+                </div>
+                    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                            Alumbra: Online Chat with expert Psychologists</p>
+                        <p style="color: Gray">Website: <a teget="_blank" href="https://alumbramx.org/ayuda" style="color: white; text-decoration: none;">alumbramx.org/ayuda/</a></p>
+                    </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">Emotional Crisis Intervention Services (In the State of Jalisco and all of the mexican republic)</p>
+                        <p style="color: Gray">Phone Number: 01800 227-4747</p>
+                    </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 3%;">SAPTEL (Mental Health Medical Service)<br></p>
+                        <p style="color: Gray">Phone Number: 01800 472-7835</p>
+                    </div>
+                </div>
+    
+                <div class="blank" id="desktop-only"></div>
+    
+                <div class="content2 comp2">
+                    <p>We also recommend the following medical services in case you have or know of a suspected case
+                            of COVID-19 or any other medical emergency:</p>
+                </div>
+    
+                <div class="content" id="desktop-only-flex" style="height: 50vh;">
+                        <img src="covid.jpg" class="center-img img-animation1" style="width: 25%; position: absolute; padding-right: 5%;">
+    
+                        <div class="text-left">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                <img src="covres1.png" style="width: 100%;">
+                            </p>
+                            <p style="color: Gray">Emergency services official contact number and app</p>
+                            <div class="blank"></div>
+                            <div class="blank"></div>
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                    Locatel-COVID-19 Cases Tracing
+                                    <br></p>
+                            <p style="color: Gray">Phone Number: 55 5484-0400</p>
+                        </div>
+    
+                        <div class="text-right">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 4%;">Mexican Red Cross<br></p>
+                            <p style="color: Gray">Phone Number: 55 1084 9000 <br></p>
+                            <div class="blank"></div>
+                            <div class="blank"></div>
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                <img src="covres2.png" style="width: 60%;">
+                            </p>
+                            <p style="color: Gray">COVID-19 App from <br> Mexico’s Health Secretary</p>
+                        </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                            <img src="covres1.png" style="width: 100%;">
+                        </p>
+                        <p style="color: Gray">Emergency services official contact number and app</p>
+                    </div>
+                </div>
+                    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                            <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                                    Locatel-COVID-19 Cases Tracing
+                                    <br></p>
+                            <p style="color: Gray">Phone Number: 55 5484-0400</p>
+                    </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 4%;">Mexican Red Cross<br></p>
+                        <p style="color: Gray">Phone Number: 55 1084 9000 <br></p>
+                    </div>
+                </div>
+    
+                <div class="halfcontent" id="mobile-only">
+                    <div class="text-mobile">
+                        <p style="border-bottom: 2px solid Gray; padding-bottom: 5%;">
+                            <img src="covres2.png" style="width: 60%;">
+                        </p>
+                        <p style="color: Gray">COVID-19 App from <br> Mexico’s Health Secretary</p>
+                    </div>
+                </div>
+                
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="end">
+                    <div style="height: 460px">
+                        <div class="text-left playlist">
+                            <h2 style="text-align: center">Our Playlist</h2>
+                            <iframe src="https://open.spotify.com/embed/playlist/3zrybcwEYgGbHEIfqpHpGo" id="playlist" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="blank"></div>
-
-            <div class="map">
-                <iframe src="mapa.html" height="100%" width="100%" frameBorder="0" title="Map 1"></iframe>
-            </div>
-
-            <p class="media-info">Map 1: Mexican regions by daily confirmed cases.</p>
-            <div class="blank" id="desktop-only"></div>
-
-            <div class="graph">
-                <iframe src="grafica.html" height="100%" width="100%" frameBorder="0" title="Graph 1"></iframe>
-            </div>
-        </div>
     </body>
 </html>
