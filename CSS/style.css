@@ -288,6 +288,21 @@ h4 {
     border: none;
 }
 
+.contact-ttl {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    margin: 10% 37%;
+}
+
+.contactspace
+{
+    margin-left: 10%;
+    text-align: center;
+    width: 40%;
+    border-radius: 5px;
+}
+
 @keyframes virus {
     0% {margin-bottom: 3%;}
     20% {margin-right: 3%}
@@ -485,5 +500,27 @@ h4 {
     .playlist {
         margin-left: 42%; 
         margin-top: 18%;
+    }
+
+    .team {
+        width: 10%;
+        height: auto;
+        margin: 5% 15%;
+        border: 1px solid Gray;
+        text-align: center;
+    }
+
+    .contact-ttl {
+        font-size: 40px;
+        margin: 0 0 0 43%;
+    }
+    
+    .contactspace
+    {
+        width: 40%;
+        margin-right: 31%;
+        margin-left: auto;
+        border-radius: 5px;
+        padding: 20px;
     }
 }
